@@ -22,7 +22,11 @@ This will build the frontend module, copy the frontend output into the backend m
 You may need to comment out the modules first time to install the parent pom, which the modules look for, and won't be there the first time.
 
 ```
-mvn --projects backend spring-boot:run
+mvn --projects backend spring-boot:run  
+
+or 
+
+java -jar filereader.jar
 
 ```
 Runs the application that includes the compiled front and backend code as built by the maven install.
